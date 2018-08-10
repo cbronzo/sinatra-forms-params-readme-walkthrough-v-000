@@ -10,8 +10,8 @@ class App < Sinatra::Base
   
   post '/food' do
   params = {
-  :name => "Sam",
-  :favorite_food => "Green Eggs and Ham"
+    :name => "Sam",
+    :favorite_food => "Green Eggs and Ham"
     }
   end
 
